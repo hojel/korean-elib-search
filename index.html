@@ -1,0 +1,67 @@
+﻿<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>전자도서관 검색</title>
+</head>
+<body>
+
+<h2>전자도서관 통합검색</h2>
+
+내 도서관 검색:
+<form name="input" action="search.php" method="get">
+<select name="type">
+  <option value="title">책이름</option>
+  <option value="author">저자</option>
+</select>
+<input type="text" name="keyword" />
+<input type="hidden" name="page" value="1" />
+<input type="hidden" name="xml" value="myelib.xml" />
+<input type="hidden" name="exclude_booktopia" value="on" />
+<input type="hidden" name="exclude_els21" value="on" />
+<input type="hidden" name="filter_mobile" value="on" />
+<input type="submit" value="검색" />
+</form>
+
+전체 도서관 검색:
+<form name="input" action="search.php" method="get">
+<select name="type">
+  <option value="title">책이름</option>
+  <option value="author">저자</option>
+</select>
+<input type="text" name="keyword" />
+<input type="hidden" name="page" value="1" />
+<input type="hidden" name="xml" value="koelib.xml" />
+<input type="submit" value="검색" />
+<br />
+<table>
+<tr>
+  <td><input type="checkbox" name="exclude_bookcube" value="on" />북큐브 제외</td>
+  <td><input type="checkbox" name="exclude_kyobo" value="on" />교보 제외</td>
+  <td><input type="checkbox" name="exclude_epyrus" value="on" />에피루스 제외</td>
+  <td><input type="checkbox" name="exclude_opms" value="on" />OPMS 제외</td>
+</tr>
+<tr>
+  <td><input type="checkbox" name="exclude_yes24" value="on" />YES24 제외</td>
+  <td><input type="checkbox" name="exclude_booktopia" value="on" checked />북토피아 제외</td>
+  <td><input type="checkbox" name="exclude_els21" value="on" checked />ELS21 제외</td>
+  <td><input type="checkbox" name="exclude_nuri" value="on" checked />누리미디어 제외</td>
+</tr>
+<tr>
+  <td colspan="3"><input type="checkbox" name="filter_mobile" value="on" />스마트폰만 검색</td>
+</tr>
+</table>
+</form>
+
+국가자료 공동목록
+<form name="input" action="kolisnet.php" method="get">
+<select name="type">
+  <option value="title">책이름</option>
+  <option value="author">저자</option>
+</select>
+<input type="text" name="keyword" />
+<input type="hidden" name="page" value="1" />
+<input type="submit" value="검색" />
+</form>
+
+</body>
+</html>

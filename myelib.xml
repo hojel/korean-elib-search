@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  개인편집 전자도서관 목록
+  koelib.xml 에서 가져옴
+-->
+<library_list>
+  <library>
+    <name>강동구전자도서관</name>
+    <url>http://elib.gangdong.go.kr</url>
+    <format>xdf+</format>
+    <platform>gangdong</platform>
+  </library>
+  <library>
+    <name>강남구 전자도서관</name>
+    <url>http://ebook.gangnam.go.kr</url>
+    <format>xdf+</format>
+    <format>mekia</format>
+    <format>adobe</format>
+    <platform>unsupported</platform>
+    <restrict>resident</restrict>
+  </library>
+  <library>
+    <name>경기도사이버도서관</name>
+    <url>http://www.golibrary.go.kr</url>
+    <format>mekia</format>
+    <platform>golibrary</platform>
+  </library>
+  <library>
+    <name>서울시교육청</name>
+    <url>http://e-lib.sen.go.kr</url>
+    <format>bookcube</format>
+    <format>xdf+</format>
+    <format>adobe</format>
+    <platform>sen</platform>
+    <restrict>resident</restrict>
+  </library>
+  <library>
+    <name>광명시중앙도서관</name>
+    <url>http://ebook.gmhlib.or.kr</url>
+    <format>mekia</format>
+    <format>adobe</format>
+    <platform>gmhlib</platform>
+  </library>
+  <library>
+    <name>부산기장도서관</name>
+    <url>http://ebook.gijang.go.kr</url>
+    <format>kyobo</format>
+    <platform>woori_a</platform>
+  </library>
+  <!-- test: bookcube -->
+  <library>
+    <name>과천도서관</name>
+    <url>http://ebook.kwalib.kr/FxLibrary</url>
+    <format>bookcube</format>
+    <platform>bookcube</platform>
+  </library>
+  <!-- test: bookcube with redirection -->
+  <library>
+    <name>부산전자도서관</name>
+    <url>http://contents.siminlib.go.kr/FxLibrary</url>
+    <format>bookcube</format>
+    <format>adobe</format>
+    <platform>bookcube</platform>
+    <restrict>resident</restrict>
+  </library>
+  <!-- test: kyobo -->
+  <library>
+    <name>이진아기념도서관</name>
+    <url>http://ebook.sdmljalib.or.kr</url>
+    <format>kyobo</format>
+    <platform>kyobo</platform>
+  </library>
+  <!-- test: kyobo(variation 1) -->
+  <library>
+    <name>공주시도서관</name>
+    <url>http://ebook.gongjulib.go.kr</url>
+    <format>kyobo</format>
+    <format>bookcube</format>
+    <platform>kyobo1</platform>
+  </library>
+  <!-- test: kyobo(variation 2) -->
+  <library>
+    <name>서초구전자도서관</name>
+    <url>http://e-bookcafe.seocho.go.kr</url>
+    <format>kyobo</format>
+    <platform>kyobo2</platform>
+  </library>
+  <!-- test: woori -->
+  <library>
+    <name>대전한밭도서관</name>
+    <url>http://ebook.hanbatlibrary.kr</url>
+    <format>xdf+</format>
+    <format>kyobo</format>
+    <format>mekia</format>
+    <format>yes24</format>
+    <platform>woori</platform>
+  </library>
+  <!-- test: type3 -->
+  <library>
+    <name>애니에듀도서관</name>
+    <url>http://ebook.anyedu.net</url>
+    <format>mekia</format>
+    <format>adobe</format>
+    <platform>type3</platform>
+  </library>
+  <!-- test: dual -->
+  <library>
+    <name>곡성교육문화회관</name>
+    <url>http://117.111.185.3:9080/FxLibrary</url>
+    <format>bookcube</format>
+    <platform>bookcube</platform>
+  </library>
+  <library>
+    <name>곡성교육문화회관</name>
+    <url>http://www.gokseong-lib.or.kr:8000</url>
+    <format>bookcube</format>
+    <platform>kyobo</platform>
+  </library>
+  <!-- test: unsupported -->
+  <library>
+    <name>울산광역시사이버도서관</name>
+    <url>http://lib.ulsan.go.kr</url>
+    <format>bookcube</format>
+    <platform>unsupported</platform>
+  </library>
+  <library>
+    <name>자이도서관</name>
+    <url>http://www.ezville.net</url>
+    <format>bookcube</format>
+    <platform>unsupported</platform>
+    <restrict>resident</restrict>
+  </library>
+  <library>
+    <name>수원시전자도서관</name>
+    <url>http://ebook.suwonlib.go.kr:8088</url>
+    <format>kyobo</format>
+    <platform>unsupported</platform>
+  </library>
+  <library>
+    <name>경상북도립상주도서관</name>
+    <url>http://ebook.sjlib.go.kr:8080</url>
+    <format>mekia</format>
+    <platform>unsupported</platform>
+  </library>
+</library_list>
